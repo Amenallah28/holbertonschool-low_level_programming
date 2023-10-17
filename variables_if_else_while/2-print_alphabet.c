@@ -17,7 +17,6 @@ int main(void)
    {
         putchar(alphabet);
 
-        // increment the variable (ie: a becomes b)
         alphabet++;
     }
 
