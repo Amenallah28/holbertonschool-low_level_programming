@@ -1,6 +1,6 @@
 #include "main.h"
 
-int main(void)
+void print_alphabet(void);
 {
 
     char alphabet = 'a'; 
@@ -13,5 +13,5 @@ int main(void)
     }
 
     _putchar('\n');
-    return (0);
+    
 }
