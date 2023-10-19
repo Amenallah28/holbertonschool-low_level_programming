@@ -10,11 +10,11 @@ for(i = 0; i < 10; i++)
      {
 	     if (i*j <10)
 	     {
-	    printf("  %d",i*j);
+	    printf("  %d,",i*j);
 	     }
 	     if (i*j > 9)
 	     {
-	    printf(" %d",i*j);
+	    printf(" %d,",i*j);
 	     }
       }
      printf("\n");
