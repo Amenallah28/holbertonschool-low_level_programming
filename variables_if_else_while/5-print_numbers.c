@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main--print numberz
+ *
+ * Return:0
+ *
+ */
+
 int main(void)
 {
     char x ;
