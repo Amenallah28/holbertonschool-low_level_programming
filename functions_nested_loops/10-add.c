@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * addition- a function adds two integers and returns the result.
+ * add- a function adds two integers and returns the result.
  *@i: integer
  *@j: integer
  * Return:Always 0
