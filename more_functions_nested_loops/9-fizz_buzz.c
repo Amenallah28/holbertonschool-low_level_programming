@@ -4,7 +4,7 @@
 /**
  * main - entry point
  *
- *@i: int
+ *FizzBizz
  * Return: always 0
  */
 int main(void)
