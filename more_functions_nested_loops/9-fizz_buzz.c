@@ -5,7 +5,7 @@
  * main - entry point
  *
  *FizzBizz
- * Return: always 0
+ * Return: 0
  */
 int main(void)
 {
@@ -22,7 +22,7 @@ int main(void)
 		else if (i == 100)
 			printf("FizzBuzz");
 		else
-			printf("%i", i);
+			printf("%i", i );
 	}
 	printf("\n");
 	return (0);
