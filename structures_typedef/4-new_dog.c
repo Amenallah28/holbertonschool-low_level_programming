@@ -8,7 +8,7 @@
  * @name: name
  * @age: age
  * @owner: owner
- * Return: Pointer to the new dog structure, or NULL if memory allocation fails.
+ * Return: dog_t
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -51,7 +51,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	{
 		dog->owner = NULL;
 	}
-
+	
 	dog->age = age;
 
 	return (dog);
