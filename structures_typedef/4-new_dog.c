@@ -13,7 +13,7 @@
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dog;
-	int len, size, i, j;
+	int len, size ;
 	char *x, *y;
 
 	if (dog)
@@ -25,10 +25,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 			strcpy(x, dog->name);
 		}
 		else
-		{
-			for (i = 0; i < len; i++)
-				free(dog->name[i]);
-		}
+		
+			
+				free(dog->name);
+		
 		if (dog->owner != NULL)
 		{
 			size = strlen(dog->owner);
@@ -37,8 +37,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 		}
 		else
 		{
-			for (j = 0; j < size; j++)
-				free(dog->owner[j]);
+			
+				free(dog->owner);
 		}
 		if (dog->age != 0)
 			dog->age = age;
