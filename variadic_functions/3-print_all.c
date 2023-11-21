@@ -43,13 +43,12 @@ void print_int(va_list x)
  */
 void print_str(va_list x)
 {
-    char *str;
-    if (str==NULL)
-    {
-        printf("(nil)");
-        return;
-    }
-	printf("%s", str);
+   char *ch;
+
+	ch = va_arg(x, char *);
+	if (ch == NULL)
+		ch = "(nil)";
+	printf("%s", ch);
 }
 
 void print_all(const char *const format, ...)
