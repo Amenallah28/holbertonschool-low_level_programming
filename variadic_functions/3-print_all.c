@@ -51,6 +51,14 @@ void print_str(va_list x)
 	printf("%s", ch);
 }
 
+/**
+ * print_all - a function that prints anything.
+ * @format: format of arguments
+ * @... : the arguments to print
+ *
+ * Return: void
+ */
+
 void print_all(const char *const format, ...)
 {
 	int i = 0;
