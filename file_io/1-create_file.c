@@ -17,9 +17,10 @@ int create_file(const char *filename, char *text_content)
 
     for (i=0;text_content[i] !='\0';i++)
     {
-        array[i]=text_content[i];
+    array[i]=text_content[i];
     write(file,array,strlen(text_content));
     }
+    free(array);
     close (file);	
    
     return(1);
