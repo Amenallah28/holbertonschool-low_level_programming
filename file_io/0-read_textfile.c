@@ -1,9 +1,15 @@
 #include "main.h"
-
+/**
+ * read_textfile-a function that reads a text file and prints it
+ * @filename:char
+ * @letters:size_t
+ * Return:letters of file_w
+*/
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int file, file_r, file_w;
 	char *array;
+
 	if (filename == NULL)
 	{
 		return (0);
