@@ -23,5 +23,5 @@ int create_file(const char *filename, char *text_content)
     }
     close (file);	
    
-    return(file_w);
+    return(1);
 }
