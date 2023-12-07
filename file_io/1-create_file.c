@@ -23,6 +23,7 @@ int create_file(const char *filename, char *text_content)
         return(0);
     }
     free (array);
-    close (file);
-	
+    close (file);	
+    }
+    return(file_w);
 }
