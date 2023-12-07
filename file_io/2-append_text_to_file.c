@@ -3,6 +3,7 @@
  * append_text_to_file - a function that appends text at the end of a file.
  * @filename:name of the file
  * @text_content:char
+ * Return: 1 or -1
 */
 int append_text_to_file(const char *filename, char *text_content)
 {
