@@ -14,7 +14,7 @@ int create_file(const char *filename, char *text_content)
 	{
 		return (0);
 	}
-    for (i=0;text_content !=NULL;i++)
+    for (i=0;text_content !='\0';i++)
     {
 	array[i]=text_content[i];
     file_w = write(file,text_content,i);
